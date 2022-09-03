@@ -36,5 +36,3 @@ with mlflow.start_run(run_name='My model experiment') as run:
 	print(f'artifact_uri = {mlflow.get_artifact_uri()}')
 	print(f'runID: {run_id}')
 	
-
-	
